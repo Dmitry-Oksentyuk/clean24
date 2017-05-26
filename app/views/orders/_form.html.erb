@@ -1,0 +1,53 @@
+
+
+<%= form_for @order do |f| %>
+    <div class="col-md-4">
+    <%= render partial: 'partials/form_errors', locals: {model: @order} %>
+
+    <div class="form-group">
+      <%= f.label :city %>
+      <%= f.text_field :city, class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :street %>
+      <%= f.text_field :street, class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :house %>
+      <%= f.text_field :house, class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :flat %>
+      <%= f.text_field :flat, class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :phone %>
+      <%= f.text_field :phone, class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :date %>
+      <p><%= f.datetime_select :date, class: 'form-control' %></p>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :furniture %>
+      <%= f.text_field :furniture, class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :carpet %>
+      <%= f.text_field :carpet, class: 'form-control' %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit 'Сохранить', class: 'btn btn-primary' %> или <%= link_to 'вернуться', :back %>
+    </div>
+
+      </div>
+<% end %>
+
