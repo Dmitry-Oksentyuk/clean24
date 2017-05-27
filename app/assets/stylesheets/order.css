@@ -38,10 +38,22 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: #1f2222;
+    color: #428BCA;
     -webkit-transition: all .8s ease;
     transition: all .8s ease;
 }
+
+.m200 {
+    margin-top: 200px;
+}
+
+.hover-link:hover {
+    text-decoration: none;
+    color: #428BCA;
+    -webkit-transition: all .8s ease;
+    transition: all .8s ease;
+}
+
 .highlight {
     color: #3eb0f7;
 }

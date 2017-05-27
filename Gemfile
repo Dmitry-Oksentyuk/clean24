@@ -5,9 +5,11 @@ gem 'rails', '4.2.8'
 
 gem 'uglifier', '>= 1.3.0'
 
+gem 'bootstrap-sass'
 gem 'jquery-rails'
+gem 'font-awesome-sass'
 
-gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'sass-rails', '~> 5.0'
 
 gem 'devise'
 

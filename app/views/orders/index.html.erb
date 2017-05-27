@@ -1,137 +1,34 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-
-  <!-- /.website title -->
-  <title>Химчистка мебели и ковров</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-  <!-- CSS Files -->
-  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-  <link href="css/font-awesome.min.css" rel="stylesheet">
-  <link href="fonts/icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
-  <link href="css/animate.css" rel="stylesheet" media="screen">
-  <link href="css/owl.theme.css" rel="stylesheet">
-  <link href="css/owl.carousel.css" rel="stylesheet">
-  <link href="css/css-index.css" rel="stylesheet" media="screen">
-
-
-  <link rel="shortcut icon" href="http://clean24.by/favicon.ico"; type="image/x-icon" />
-</head>
-
-
-<body data-spy="scroll" data-target="#navbar-scroll">
+<div data-spy="scroll" data-target="#navbar-scroll">
 <!-- /.preloader -->
 <div id="preloader"></div>
 <div id="top"></div>
-<!-- NAVIGATION -->
 
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Ссылка</a></li>
-        <li><a href="#">Ссылка</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Действие</a></li>
-            <li><a href="#">Другое действие</a></li>
-            <li><a href="#">Что-то еще</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Отдельная ссылка</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Еще одна отдельная ссылка</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Отправить</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Ссылка</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Действие</a></li>
-            <li><a href="#">Другое действие</a></li>
-            <li><a href="#">Что-то еще</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Отдельная ссылка</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-
-<!-- /.parallax full screen background image -->
-<div class="fullscreen landing parallax" style="background-image:url('../../assets/images/bg.jpg');" data-img-width="2000"
-     data-img-height="1333" data-diff="100">
+<!-- /.первый экран -->
+<div class="fullscreen landing parallax" style="background-image:url('../../assets/images/bg.jpg');" data-img-width="2000" data-img-height="1125" data-diff="100">
 
   <div class="overlay">
     <div class="container">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-10 col-md-offset-1 text-center">
 
           <!-- /.logo -->
-          <div class="logo wow fadeInDown"><p>ВЫВЕДЕМ ЛЮБЫЕ ПЯТНА И ЗАПАХИ</p></div>
+          <div class="logo wow fadeInDown"> <a href=""><img src="images/logo.png" alt="logo"></a></div>
 
           <!-- /.main title -->
-          <h1 class="wow fadeInLeft">
+          <h1 class="wow fadeInLeft m200">
             Химчистка мягкой мебели и ковров
           </h1>
 
           <!-- /.header paragraph -->
           <div class="landing-text wow fadeInUp">
-            <p>на дому и вывозом в цех</p>
+            <p>на дому и с вывозом в цех</p>
           </div>
+          <div class="logo wow fadeInDown "><p>ВЫВЕДЕМ ЛЮБЫЕ ПЯТНА И ЗАПАХИ</p></div>
 
           <!-- /.header button -->
           <div class="head-btn wow fadeInLeft">
-            <a href="#intro" class="btn-default">Акция до 22 мая!</a>
-          </div>
-
-        </div>
-
-        <!-- /.signup form -->
-        <div class="col-md-5">
-
-          <div class="signup-header wow fadeInUp">
-            <h3 class="form-title text-center">РАССЧЕТ СТОИМОСТИ</h3>
-
-            <form class="form-header" id="application" action="application.php" method="POST" name=" application ">
-
-
-              <div class="form-group">
-                <input class="form-control input-lg" name="name" id="applicationName" maxlength="20" placeholder="Введите ваше имя" required/>
-              </div>
-              <div class="form-group">
-                <input class="form-control input-lg" name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required />
-              </div>
-              <div class="form-group last">
-                <input type="submit" class="btn btn-warning btn-block btn-lg" form="application" value="ОСТАВИТЬ ЗАЯВКУ">
-              </div>
-              <p class="privacy text-center">Ваши данные не будут переданы 3-м лицам</br><a
-              href="privacy.html">Политика конфиденциальности</a></p>
-            </form>
+            <%= link_to 'Оставить заявку', new_order_path, class: 'm200 btn-primary' %>
+            <%= link_to 'Акция до 31 мая', '#action', class: 'btn btn-default' %>
           </div>
 
         </div>
@@ -140,8 +37,8 @@
   </div>
 </div>
 
-<!-- /.feature section -->
-<div id="feature">
+<!-- /.eggs -->
+<div id="eggs">
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-md-offset-1 col-sm-12 text-center feature-title">
@@ -197,8 +94,8 @@
   </div>
 </div>
 
-<!-- /.intro section -->
-<div id="intro">
+<!-- /.call to action -->
+<div id="action">
   <div class="container">
     <div class="row">
 
@@ -248,8 +145,8 @@
 </div>
 
 
-<!-- /.feature 2 section -->
-<div id="feature-2">
+<!-- /.как мы делаем х/ч -->
+<div id="dry">
   <div class="container">
     <div class="row">
 
@@ -277,8 +174,8 @@
 </div>
 
 
-<!-- /.pricing section -->
-<div id="package">
+<!-- /.цены -->
+<div id="price">
   <div class="container">
     <div class="text-center">
 
@@ -425,69 +322,8 @@
   </div>
 </div>
 
-<!-- /.download section -->
-<div id="download">
-
-
-  <div class="container-fluid">
-    <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
-
-      <div class="text-center">
-
-        <!-- /.title -->
-        <h2 class="wow fadeInLeft">Дополнительно оказываем:</h2>
-        <div class="title-line wow fadeInRight"></div>
-      </div>
-
-      <table id="price-add-service" class="table table-hover">
-        <tbody>
-        <tr>
-          <td>
-            <div class="row">
-              <h3>Удаление неприятного запаха:</h3>
-              <h3 class="question-green">от 25 руб.</h3>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="row">
-              <h3>Сушка:</h3>
-              <h3 class="question-green">40 руб.</h3>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="row">
-              <h3>Дезинфекция:</h3>
-              <h3 class="question-green">20 руб.</h3>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="row">
-              <h3>Удаление шерсти:</h3>
-              <h3 class="question-green">от 15 руб.</h3>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="row">
-              <h3>Защитная пропитка для ткани:</h3>
-              <h3 id="questions" class="question-green">55 руб.</h3>
-            </div>
-          </td>
-        </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
-<!-- /.client section -->
-<div id="client">
+<!-- /.Вопросы -->
+<div id="questions">
   <div class="container">
     <h1>Часто задаваемые вопросы:</h1>
     <div class="panel-group text-left" id="accordion">
@@ -599,8 +435,8 @@
 </div>
 
 
-<!-- /.testimonial section -->
-<div id="testi">
+<!-- /.примеры работ(фоточки) -->
+<div id="before-after">
   <div class="container">
     <div class="text-center">
       <h2 class="wow fadeInLeft">Примеры работ ДО и ПОСЛЕ:</h2>
@@ -633,8 +469,8 @@
   </div>
 </div>
 
-<!-- /.contact section -->
-<div id="contact">
+<!-- /.контакты -->
+<div id="contacts">
   <div class="contact fullscreen parallax" style="background-image:url('images/bg.jpg');" data-img-width="2000"
        data-img-height="1334" data-diff="100">
     <div class="overlay">
@@ -684,15 +520,5 @@
   </div>
 </div>
 
-<!-- /.javascript files -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/jquery.sticky.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script>
-  new WOW().init();
-</script>
-</body>
-</html>
+</div>
+
